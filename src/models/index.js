@@ -4,17 +4,17 @@ const path = require('path');
 const fs = require('fs');
 
 // Configurações do banco de dados
-const sequelize = new Sequelize('api_mwana_db', 'root', '', {
-  host: 'localhost',
-  dialect: 'mysql',
-  logging: false,
-});
-
-// const sequelize = new Sequelize('securegestdb_v2', '331882_sec', 'kjdhi%%##$', {
-//   host: 'mysql-securegestdb.alwaysdata.net',
+// const sequelize = new Sequelize('api_mwana_db', 'root', '', {
+//   host: 'localhost',
 //   dialect: 'mysql',
 //   logging: false,
 // });
+
+const sequelize = new Sequelize('securegestdb_mwana', '331882_sec', 'kjdhi%%##$', {
+  host: 'mysql-securegestdb.alwaysdata.net',
+  dialect: 'mysql',
+  logging: false,
+});
 
 // Carrega os modelos dinamicamente
 const models = {};
