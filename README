@@ -1,0 +1,3 @@
+EXECUTE ISTO NO TERMINAL PARA INSTALAR AS DEPENDEÊNCIAS DA API***
+
+npm install express sequelize mysql2 swagger-ui-express multer cors body-parser bcrypt
